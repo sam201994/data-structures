@@ -32,7 +32,7 @@ var Stack = function() {
   // but try not not reference your old code in writing the new style.
    
   var instance=Object.create(stackMethods);
-  instance.storage= {};
+  instance.storage= {}
   instance.top= 0;
   return instance;
 
